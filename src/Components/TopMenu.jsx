@@ -1,4 +1,4 @@
-import { AppstoreOutlined, BorderTopOutlined, HomeOutlined, SettingOutlined, ShoppingCartOutlined, SwapOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, BorderTopOutlined, HomeOutlined, QuestionCircleOutlined, SettingOutlined, ShoppingCartOutlined, SwapOutlined } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useNavigate } from "react-router-dom";
 
@@ -17,9 +17,10 @@ const TopMenu = () => {
           {label: "Roller Blinds", key: "/roller_blinds", icon: <BorderTopOutlined/>}, 
           {label: "Shangri-La", key: "/shangri_la_blinds", icon: <BorderTopOutlined/>},
           {label: "Motorized", key: "/motorized", icon: <SettingOutlined/>},
-          {label: "Measur & Install", key: "/measure_install", icon: <SwapOutlined/>},
+         
           {label: "Gallery", key: "/gallery", icon: <AppstoreOutlined/>},
-          {label: "Customize", key: "/shopping", icon: <ShoppingCartOutlined/>}
+          {label: "Customize", key: "/shopping", icon: <ShoppingCartOutlined/>},
+          {label: "Help Centre", key: "/measure_install", icon: <QuestionCircleOutlined/>},
         ]}>
     </Menu>
       
