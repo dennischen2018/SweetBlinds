@@ -1,3 +1,4 @@
+import { PhoneOutlined } from "@ant-design/icons";
 
 
 const Header = () => {
@@ -18,31 +19,29 @@ const Header = () => {
       {/* <Image  height={130} src={sweetBlindsLogo}/> */}
       <div  style={{
         display: "inline", 
-   
         margin: "0", 
-
         height: "80px", 
         backgroundColor: "white",
-        // fontSize: "50",
-        // color: "green"
+
       }}>
         
-        {/* <span style={{color:"#de4c28"}}>Sweet</span>
-        <span style={{color: "#4ad642"}}>Blinds</span>
-        <span style={{color: "green",fontSize:"30"}}>.ca</span> */}
-        <span style={{color: "green",fontSize:"50", textShadow: "#7a7a7a 1px 1px 2px"}}>SweetBlinds.ca</span>
+        <span style={{color: "green",fontSize:"56", textShadow: "#7a7a7a 1px 1px 2px"}}>
+          SweetBlinds.ca
+        </span>
 
       </div>
+
       <div style={{
         display: "inline", 
-        margin: "0 50px", 
- 
+        margin: "0 10px", 
         height: "80px",
         fontSize: "30",
         backgroundColor: "",
         }}>
-          <span style={{fontFamily: "Segoe Script", color: "grey", fontSize: "24", marginLeft: "50px"}}>Factory Direct Sale</span>
-
+          <span style={{fontFamily: "Segoe Script", color: "grey", fontSize: "28", marginLeft: "120px"}}>Factory Direct Sale</span>
+          
+          <span style={{fontSize: 18, marginLeft: 140}}><PhoneOutlined/>: 416-835-2899</span>
+          <span style={{fontSize: 18, marginLeft: 20}}><PhoneOutlined/>: 416-858-1518</span>
       </div>
     </div>
   )

@@ -1,15 +1,16 @@
 const Footer = () => {
   return (
     <div style={{
-        backgroundColor: "lightgrey", 
+        backgroundColor: "#eeeeee", 
         height: "50px", 
         display: "flex", 
-        color: "black",
         justifyContent: "center",
         alignItems: "center",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        fontSize: "20",
+        color: "#888"
       }}>
-      Footer
+      www.sweetblinds.ca | Copyright &copy; 2024 Sweet Blinds Canada
     </div>
   )
 }

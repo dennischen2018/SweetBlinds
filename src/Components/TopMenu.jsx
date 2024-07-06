@@ -1,4 +1,4 @@
-import { AppstoreOutlined, BorderTopOutlined, HomeOutlined, QuestionCircleOutlined, SettingOutlined, ShoppingCartOutlined, SwapOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, BorderTopOutlined, HomeOutlined, QuestionCircleOutlined, SettingOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useNavigate } from "react-router-dom";
 
@@ -6,6 +6,7 @@ const TopMenu = () => {
   const navigate = useNavigate();
   return (
     <Menu mode="horizontal" 
+      theme="light"
       onClick={(key)=>{
         console.log(">>key", key)
         navigate(key.key);
@@ -17,13 +18,11 @@ const TopMenu = () => {
           {label: "Roller Blinds", key: "/roller_blinds", icon: <BorderTopOutlined/>}, 
           {label: "Shangri-La", key: "/shangri_la_blinds", icon: <BorderTopOutlined/>},
           {label: "Motorized", key: "/motorized", icon: <SettingOutlined/>},
-         
           {label: "Gallery", key: "/gallery", icon: <AppstoreOutlined/>},
-          {label: "Customize", key: "/shopping", icon: <ShoppingCartOutlined/>},
+          {label: "Shopping", key: "/shopping", icon: <ShoppingCartOutlined/>},
           {label: "Help Centre", key: "/measure_install", icon: <QuestionCircleOutlined/>},
         ]}>
     </Menu>
-      
   )
 }
 

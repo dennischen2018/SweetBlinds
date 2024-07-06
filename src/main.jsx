@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <ConfigProvider
         theme={{
           token: {
-            fontSize: 16,
+            fontSize: 18,
           }
 
         }}

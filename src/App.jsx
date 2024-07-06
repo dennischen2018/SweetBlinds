@@ -15,7 +15,7 @@ const App = () => {
     return (
       <>
       <div style={{
-          width: "80%", 
+          width: "1200", 
           margin: "5px auto",
         }}>
         <Header/>
